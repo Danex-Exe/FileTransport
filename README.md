@@ -5,7 +5,9 @@
     <br><br>
 </div>
 
-### server.py
+This Python FTP-like solution enables secure file transfers between devices on local networks. The multi-threaded server handles concurrent connections while the cross-platform client offers both CLI and interactive modes. Features include command-line arguments, session persistence, and basic error handling.
+
+# server.py
 A multi-threaded FTP-like file server supporting:
 - File upload/download for all file types
 - Directory navigation (CD command)
@@ -21,7 +23,7 @@ Key Features:
 - Handles multiple concurrent connections
 - Basic error handling
 
-### client.py
+# client.py
 A feature-rich client with:
 - Interactive and CLI modes
 - Command-line arguments support:
